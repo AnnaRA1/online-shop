@@ -1,0 +1,341 @@
+
+
+//body {
+//  margin: 0;
+//  padding: 0;
+//  font-family: 'Poppins', sans-serif;
+//}
+
+#navbartop{
+  max-height:54px;
+  background-color: #434343;
+  color: #ffffff;
+  font-size: 13px;
+  font-family: ﻿Poppins-Medium,sans-serif;
+
+}
+#navbartop .nav-link{
+  text-decoration: none;
+  font-size: 13px;
+  font-family: ﻿Poppins-Medium,sans-serif;
+}
+#navbartop .nav-link:hover{
+  color: #ffffff;
+  text-decoration:underline ;
+}
+.phone.nav-link{
+  text-decoration: underline;
+  font-family:Poppins-SemiBold, sans-serif;
+  font-size: 17px;
+  color:#d8d8d8;
+}
+
+#navbartop .icon, #navbartop .nav-link, #navbartop .navbar{
+  background-color: #434343;
+  color: #ffffff;
+}
+
+
+.top.row{
+  background-color:#363636 ;
+  max-height:145px;
+  font-family: ﻿Poppins-SemiBold,sans-serif;
+  font-size: 17px;
+}
+
+.navbar-brand{
+  width: 165px;
+  height: 77px;
+}
+.purchase1{
+  width: 229px;
+  height: 160px;
+}
+.purchase2{
+  width: 154px;
+  height: 165px;
+}
+.line1.row, .line2.row{
+  border: 2px gray solid;
+  width: 1029px;
+  height: 218px;
+}
+* {box-sizing: border-box;}
+.navbar-form {
+  position: relative;
+  width: 320px;
+  margin: 0 auto;
+}
+.form-control, .btn {
+  border: none;
+  outline: none;
+
+}
+.form-control {
+  width: 100%;
+  height: 47px;
+  background: #ffffff;
+  border: 1px grey solid;
+  padding-left: 15px;
+
+}
+.search {
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  cursor: pointer;
+
+
+}
+.search:before {
+  //font-family:
+  color: #F9F0DA;
+  font-size: 15px;
+  font-weight: bold;
+  background: white;
+}
+
+
+.menu{
+  background-color:#ffffff ;
+  //height:87px;
+  //border-bottom:  #d1d1d1 3px solid;
+  }
+.discriptoin{
+  position: absolute;
+  background-color:#676767 ;
+  opacity:10% ;
+  overflow:hidden ;
+  text-align: center;
+  margin: auto;
+}
+.mainline{
+  font-family:Poppins,sans-serif;
+  font-size: 46px;
+  color:#ffffff;
+
+}
+.line{
+  font-family:Poppins-ligh,sans-serif;
+  font-size: 46px;
+  color:#ffffff;
+}
+.secondline{
+  font-family:Poppins-SemiBold,sans-serif;
+  font-size: 24px;
+  color:#c2c2c2;
+}
+.sliderbtn{
+  background-color:#ffffff;
+  font-family:Poppins-SemiBold,sans-serif;
+  font-size: 14pt;
+
+}
+.carousel.slide {
+  position: relative;
+}
+.container-fluid.features
+{
+  width: 1140px;
+}
+.row.features{
+ width: 1140px;
+}
+.contentline1, .contentline2{
+
+   font-size: 27px;
+   color: #2a2a2a;
+
+ }
+.contentline1 {
+  font-family:Poppins-SemiBold, sans-serif;
+}
+.contentline2 {
+  font-family:Poppins-ligh, sans-serif;
+}
+.contentline3 {
+  font-family:Poppins-ligh, sans-serif;
+  font-size: 25px;
+}
+.col-xs-12 .col-md-3 .col-lg-1{width: 263px;
+
+}
+.features .content {
+  border: 1px solid #b7b7b7;
+  width: 260px;
+  margin-right: 20px;
+}
+
+//.icon-next{
+//  width: 50px;
+//  height: 50px;
+
+//.collapse.navbar-collapse :hover {
+//  background-color:#d58e32;
+//  text-decoration: none;
+//  border-top: black 2px solid;
+//  //.collapse.navbar-collapse .а :hover{
+//  //  background-color: #d58e32;
+//  //}
+//}
+//#secondNav :hover .li.a{
+//  background-color:#d58e32;
+//  text-decoration: none;
+//  border-top: black 2px solid;
+//
+//}
+//#NavbarResponsive .li{
+//  background-color:#d58e32;
+//  text-decoration: none;
+//  border-top: black 2px solid;
+//}
+
+//#NavbarResponsive > li:hover {
+//    background-color:#d58e32;
+//    text-decoration: none;
+//    border-top: black 2px solid;
+//    //.collapse.navbar-collapse .а :hover{
+//    //  background-color: #d58e32;
+//    //}
+//  }
+//
+//#NavbarResponsive{
+//  justify-content: center;
+//  text-align: center;
+//  border-bottom:  #d1d1d1 3px solid;
+//  height:80px;
+//  font-family: ﻿Poppins-SemiBold, sans-serif;
+//  font-size: 14px;
+//  color: #2a2a2a;
+//  text-decoration: none;
+//}
+
+#NavbarResponsive{
+  min-height:80px;
+  background-color: #ffffff;
+  //color: #ffffff;
+  font-size: 14px;
+  font-family: ﻿Poppins-Medium,sans-serif;
+  border-bottom:  #d1d1d1 3px solid;
+}
+
+#NavbarResponsive .div{
+  text-decoration: none;
+  font-size: 14px;
+  height:80px;
+  font-family: ﻿Poppins-Medium,sans-serif;
+}
+// some problems with nav-link - of removed we can get cenered
+#NavbarResponsive .nav-link{
+  padding: 30px 0;
+  display: block;
+  text-decoration: none;
+  border-top: white 2px solid;
+  font-size: 14px;
+  //margin: auto;
+  color: black;
+  font-family: ﻿Poppins-Medium,sans-serif;
+}
+#NavbarResponsive .nav-link:hover{
+  color: #ffffff;
+  border-top: black 2px solid;
+  background-color: #d58e32;
+  text-decoration:none ;
+}
+// add code to set active in js
+#NavbarResponsive .nav-link:active {
+  color: #ffffff;
+  border-top: black 2px solid;
+  background-color: #d58e32;
+  text-decoration:underline ;
+}
+
+#NavbarResponsive .icon, #NavbarResponsive .nav-link, #NavbarResponsive .navbar{
+  background-color: #ffffff;
+  //color: #ffffff;
+}
+
+
+
+//.second{
+//  text-decoration: none;
+//  height: 80px;}
+//
+//.second li{
+//  text-decoration: none;
+//  height: 80px;
+//  //border-bottom:#d1d1d1 3px solid;
+//}
+//.navbar-collapse.collapse{
+//  text-align: center;
+//}
+//.navbar-nav {
+//  justify-content: center;
+//  text-align: center;}
+
+
+.carousel slider {
+  height: 505px;
+  width: 1138px;
+}
+
+.container-fluid.slider {
+  height: 505px;
+  width: 1138px;
+}
+
+
+
+//.site.nav-link{
+//  color:#555555 ;
+//  font-family:Poppins-SemiBold,sans-serif;
+//  font-size: 14px;
+//  text-decoration: none;
+//}
+//.site.navbar{
+//  background-color: white;
+//  height: 84px;
+//}
+
+
+//// телефоны («таблетки», >= 768px)
+//@media (min-width: 420px) { ... }
+//
+//// Средние девайсы («планшеты», >= 768px)
+//@media (min-width: 768px) { ... }
+//
+//// Экстрабольшие девайсы (большие десктопы, >= 1200px)
+//@media (min-width: 1200px) { ... }
+
+.top-slider-cc {
+  background-color: #00000099;
+  right: 0;
+  left: 0;
+  top:-10;
+  height: 214px;
+  bottom: 146px;
+}
+
+
+.top-slider-move {
+  position: absolute;
+  top: 92.5%;
+  width: 50%;
+  display: block;
+  background-color: #2a2a2a;
+  opacity: 1.0;
+  height: 39px;
+}
+.top-slider-move.prev {
+  right: 0;
+}
+
+.top-slider-move:focus{
+  opacity: 1.0;
+}
+.top-slider-move:hover{
+  background-color: #d58e32;
+  opacity: 1.0;
+}
