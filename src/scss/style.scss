@@ -1,7 +1,10 @@
 @import '../../node_modules/bootstrap/dist/css/bootstrap.css';
 
+@import '../../node_modules/reset-css/sass/reset';
+
 //импорт студент 1
 @import 'design';
 
 //импорт студент 2
 @import 'banners';
+@import 'footer';
