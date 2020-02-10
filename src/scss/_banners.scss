@@ -1,10 +1,6 @@
-$color-first: #d58e32;
-$color-bg-images: #e8edf7;
-
-
 .container-width {
     margin: 0 auto;
-    max-width: 1115px;
+    max-width: 1140px;
 }
 
 .stocks {
@@ -92,7 +88,7 @@ $color-bg-images: #e8edf7;
     color: #000;
     font-size: 20px;
     position: absolute;
-    top: 15%;
+    top: 30%;
     left: 31%;
     line-height: 1;
 }
@@ -106,6 +102,9 @@ $color-bg-images: #e8edf7;
 .stocks-item2-text-span {
     font-size: 20px;
 }
+
+$color-first: #d58e32;
+$color-bg-images: #e8edf7;
 
 .stocks-item2-img-wrapper {
     background: $color-bg-images;
