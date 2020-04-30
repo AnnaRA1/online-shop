@@ -7,14 +7,14 @@
     "bootstrap": "^4.4.1",
     "del": "^5.1.0",
     "gulp-rigger": "^0.5.8",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "popper.js": "^1.16.1",
     "pure-css3-animated-border": "^1.0.0",
     "reset-css": "^5.0.1"
   },
   "devDependencies": {
     "bootstrap": "^4.4.1",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "popper.js": "^1.16.1",
     "browser-sync": "^2.26.7",
     "gulp": "^4.0.2",
